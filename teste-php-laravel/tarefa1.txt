@@ -1,0 +1,22 @@
+Arquivos alterados e inseridos:
+
+.../teste-php-laravel/routes/web.php
+.../teste-php-laravel/tarefa1.txt
+.../teste-php-laravel/resources/views/import.blade.php
+.../teste-php-laravel/resources/views/processing.blade.php
+.../teste-php-laravel/app/Http/Controllers/ImportController.php
+.../teste-php-laravel/app/Http/Controllers/ProcessingController.php
+
+
+Problemas/Soluções/Melhorias
+
+    Colocar um comando pra verificar a existência da tabela antes de cria-la.
+
+    O seeder DatabaseSeeder.php, é preciso descomentar o script para inserir os dados na tabela documents.
+    E usar o comando Insert.
+
+    Corrijir os dados no seeder DatabaseSeeder.php.
+
+    A migration "...create_documents_table.php" poderia adicionar as restrições unique e nullable aos campos name e description.
+
+    Talves, o seeder DatabaseSeeder.php poderia usar um método mais eficiente para inserir dados na tabela documents.
